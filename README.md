@@ -122,6 +122,3 @@ Open the local Streamlit URL displayed in the terminal.
 - AI-generated reports may include cautious wording depending on the model and prompt.
 - Final output should be checked for completeness, citations, and accuracy.
 
-## License
-
-This project is intended for educational and learning use.
