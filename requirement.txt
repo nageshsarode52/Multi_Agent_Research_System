@@ -1,0 +1,15 @@
+langchain
+langchain-core
+langchain-community
+groq
+langchain-groq
+tavily-python
+beautifulsoup4
+requests
+lxml
+python-dotenv
+pydantic
+aiohttp
+httpx
+fastapi
+unicorn

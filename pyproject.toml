@@ -1,0 +1,36 @@
+[project]
+name = "travel-planner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nagesh Sarode", email = "nageshsarode52@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "aiohttp>=3.14.3",
+    "beautifulsoup4>=4.15.0",
+    "fastapi>=0.141.1",
+    "groq>=0.37.1",
+    "httpx>=0.28.1",
+    "langchain>=1.4.3",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.5",
+    "langchain-groq>=1.1.3",
+    "langchain-ollama>=1.1.0",
+    "lxml>=6.1.3",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+    "streamlit>=1.64.0",
+    "tavily-python>=0.8.4",
+    "unicorn>=2.1.4",
+]
+
+[project.scripts]
+travel-planner = "travel_planner:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
