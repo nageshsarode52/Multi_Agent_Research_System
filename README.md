@@ -108,17 +108,3 @@ Open the local Streamlit URL displayed in the terminal.
 - technology updates
 - general research workflows
 
-## Notes
-
-- This project is intended for research and educational purposes.
-- Some model providers may rate-limit requests depending on usage or quota.
-- Local Ollama can be used as a fallback when Groq is unavailable or rate-limited.
-- Generated reports should be reviewed for factual correctness before being treated as final research output.
-
-## Limitations
-
-- Search results depend on the current web state and source quality.
-- Web scraping depends on site structure and accessibility.
-- AI-generated reports may include cautious wording depending on the model and prompt.
-- Final output should be checked for completeness, citations, and accuracy.
-
